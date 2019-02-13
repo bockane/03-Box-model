@@ -1,0 +1,76 @@
+body{
+  background: #FDFBF9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color:  #738598;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+/*Pick a nice background-color, font-family, color, font-size and line-height
+for the <body>. Setting these font rules at the body-level will apply them
+on all basic text tags (<p>, <li>, etc.).*/
+
+
+img {
+  width: 200px;
+}
+
+
+h1, h2, h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: #FE4A49;
+  font-size: 30px;
+}
+
+h2{
+  color: #FE6A6A;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/*Headers
+Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant. If you check out any website
+(Medium, Airbnb, etc.), you'll see that the font-size of their headers
+is quite small.*/
+
+img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+.text {
+  text-align: left;
+}
+
+.container{
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
